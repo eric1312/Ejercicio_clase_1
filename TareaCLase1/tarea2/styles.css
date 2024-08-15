@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFF00; /* Amarillo para mayor contraste */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFF00; /* Amarillo para mayor contraste */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #FFFF00; /* Amarillo para mayor contraste */
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #FFFF00; /* Amarillo para mayor contraste */
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFF00;
+    color: #000000;
+}
+
+.style-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.style-buttons button {
+    width: 45%;
+    margin: 5px;
+    background-color: #000000;
+    color: #FFFF00; /* Amarillo para mayor contraste */
+    border: 2px solid #FFFF00;
+}
+
+.style-buttons button:hover {
+    background-color: #FFFF00;
+    color: #000000;
+}
+
+/* Estilo 1 */
+.style1 input {
+    background-color: #000000;
+    border-color: #FF0000; /* Rojo para mayor contraste */
+    color: #FFFFFF;
+}
+
+/* Estilo 2 */
+.style2 input {
+    background-color: #000000;
+    border-color: #00FF00; /* Verde para mayor contraste */
+    color: #FFFFFF;
+}
